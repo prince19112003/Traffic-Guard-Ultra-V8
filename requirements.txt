@@ -1,0 +1,6 @@
+flask
+opencv-python
+pyserial
+ultralytics
+numpy
+psutil

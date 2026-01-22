@@ -1,0 +1,22 @@
+Traffic-Guard-Pro/
+│
+├── app.py                   # Main Server (Flask + Logic)
+├── config.py                # Settings (Video Paths, Timers)
+├── requirements.txt         # Dependencies
+│
+├── core/                    # AI & Processing Brain
+│   ├── init.py
+│   └── ai_engine.py         # YOLOv8 Detection Logic
+│
+├── hardware/                # Hardware Control
+│   ├── init.py
+│   └── serial_manager.py    # Robust Arduino Controller
+│
+├── videos/                  # 📂 Testing Videos yahan dalein
+│   ├── north.mp4
+│   ├── south.mp4
+│   ├── east.mp4
+│   └── west.mp4
+│
+└── templates/               # Frontend UI
+└── index.html           # 4-Screen Dashboard
